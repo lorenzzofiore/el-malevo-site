@@ -7,7 +7,7 @@ export default function HeroSection() {
   return (
     <section className="main-section">
       <h2 className='bigshot-one-regular title'>"El Malevo"</h2>
-      <p className='geist text-p'>Welcome to the world of "El Malevo," where tradition and craftsmanship meet to create an experience like no other.</p>
+      <p className='geist text-p'>Welcome to El Malevo's world, where tradition and craftsmanship meet to create an experience like no other.</p>
       <div className='row-image-hero'>
         <a className='btn-try-empanadas'>Try Empanadas</a>
         <div className='image-isologo'>
