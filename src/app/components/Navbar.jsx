@@ -1,7 +1,6 @@
 // components/Navbar.js
 import '../styles/Navbar.css';
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function Navbar() {
   return (
@@ -11,10 +10,9 @@ export default function Navbar() {
       </div>
       <div className="navbar-links">
         <a href="#empanadas">Empanadas</a>
-        <a href="#events">Events</a>
         <a href="#clothing">Clothing</a>
         <a href="#contact">Contact</a>
-        <button className="btn-chat-with-us-nav">Chat with us</button>
+        <a href="https://wa.link/qlnfr4" className="btn-chat-with-us-nav">Chat with us</a>
       </div>
     </nav>
   );
