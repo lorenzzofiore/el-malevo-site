@@ -96,4 +96,10 @@
         height: 40px!important;
         margin-bottom: 2.75rem;
     }
+    .boton-footer-empanada,
+    .boton-footer-clothing {
+        background: transparent;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: none;
+    }
 }
