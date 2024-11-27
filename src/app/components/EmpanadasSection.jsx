@@ -32,7 +32,7 @@ export default function EmpanadasSection() {
   const selectedEmpanada = empanadas[selectedEmpanadaIndex];
 
   return (
-    <section className="empanadas-section">
+    <section className="empanadas-section" id="empanadas">
       <div className="image-trama">
         <Image
           className="image-trama-home" 

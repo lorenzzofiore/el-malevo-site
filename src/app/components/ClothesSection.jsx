@@ -32,7 +32,7 @@ export default function ClothesSection() {
   const selectedClothes = clothes[selectedClothesIndex];
 
   return (
-    <section className="clothes-section">
+    <section className="clothes-section" id="clothing">
       <div className="image-trama">
         <Image
           className="image-trama-home" 

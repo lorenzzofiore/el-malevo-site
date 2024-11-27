@@ -15,9 +15,9 @@ export default function Home() {
       <div className='main'>
         <HeroSection />
         <MainContent/>
-        <EmpanadasSection/>
-        <ClothesSection/>
-        <Footer/>
+        <EmpanadasSection id="empanadas"/>
+        <ClothesSection id="clothing"/>
+        <Footer id="contact"/>
       </div>
     </div>
   );
