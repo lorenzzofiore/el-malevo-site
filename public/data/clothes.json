@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "T-shirt Caballo",
+      "description": "A caballo reglado, no se le miran los dientes.",
+      "image": "/images/clothes-caballo.png"
+    },
+    {
+      "id": 2,
+      "name": "T-shirt Perro",
+      "description": "Perro que ladra, no muerde.",
+      "image": "/images/clothes-perro.png"
+    },
+    {
+      "id": 3,
+      "name": "T-shirt Empanadas",
+      "description": "Al mal tiempo, empanadas.",
+      "image": "/images/clothes-empanadas.png"
+    },
+    {
+      "id": 4,
+      "name": "T-shirt Dios",
+      "description": "Al que madruga, Dios lo ayuda.",
+      "image": "/images/clothes-god.png"
+    }
+]
+  

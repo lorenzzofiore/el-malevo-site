@@ -1,0 +1,99 @@
+.footer-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 1rem;
+    min-height: 80vh;
+    width: 100%;
+}
+.row-cta-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 5rem;
+}
+.boton-footer-empanada,
+.boton-footer-clothing {
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.3px);
+    -webkit-backdrop-filter: blur(10.3px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 1rem 1.25rem;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    width: 300px;
+    height: 160px;
+    border-radius: 22px;
+    cursor: pointer;
+    transition: all ease-in-out 400ms;
+}
+.boton-footer-empanada:hover,
+.boton-footer-clothing:hover {
+    color: #ffcc00;
+    box-shadow: 0 4px 30px #ffcc0036;
+}
+.boton-footer-empanada img,
+.boton-footer-clothing img {
+    position: relative!important;
+}
+.boton-footer-empanada img {
+    height: 65px!important;
+}
+.footer-legales {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.footer-legales p {
+    color: var(--white);
+    font-size: 1rem;
+}
+.cta-clothing {
+    display: flex;
+    gap: 0.2rem;
+    min-width: 220px;
+    color: var(--white);
+    transition: all ease-in-out 400ms;
+}
+.cta-clothing a:hover {
+    color: #ffcc00;
+}
+@media (max-width:768px) {
+    h2.title {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .text-p {
+        width: 28ch;
+        text-align: center;
+    }
+    .row-cta-footer {
+        flex-direction: column;
+        padding-bottom: 3rem;
+    }
+    .footer-legales {
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.25rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .footer-legales p {
+        font-size: .8rem;
+        text-align: center;
+    }
+    .image-trama {
+        height: 40px!important;
+        margin-bottom: 2.75rem;
+    }
+}

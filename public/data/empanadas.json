@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "name": "Spinat Empanada",
+      "description": "Empanada aus frischem Spinar, mit gekochtem Ei und Mozzarella.",
+      "image": "/images/empanada-capresse.png"
+    },
+    {
+      "id": 2,
+      "name": "Schinken-Käse Empanada",
+      "description": "Empanada aus Schinken und MOzzarella.",
+      "image": "/images/empanada-carne.png"
+    },
+    {
+      "id": 3,
+      "name": "Capresse Empanada",
+      "description": "Empanada aus Tomaten, Mozzarella, Basilikum und einem Hauch Olivenöl.",
+      "image": "/images/empanada-capresse.png"
+    },
+    {
+      "id": 4,
+      "name": "Humita Empanada",
+      "description": "Empanada aus Mais, rote Paprika und Bechamelsauce.",
+      "image": "/images/empanada-carne.png"
+    },
+    {
+      "id": 5,
+      "name": "Hackfleisch Empanada",
+      "description": "Empanada aus Rinderhackfleisch, gekochtem Ei, Oliven, Zwiebeln und rote Paprika.",
+      "image": "/images/empanada-capresse.png"
+    },
+    {
+      "id": 6,
+      "name": "Zwiebel & Champignons",
+      "description": "Empanada aus Zwiebel, Champignons und bechamelsauce Käse Aromatische.",
+      "image": "/images/empanada-capresse.png"
+    },
+    {
+      "id": 7,
+      "name": "CheesyFleisch Empanada",
+      "description": "Empanada aus Rinderhackfleisch, Zwiebel, Cheddar und Mozzarella Käse.",
+      "image": "/images/empanada-capresse.png"
+    },
+    {
+      "id": 8,
+      "name": "Düsseldorfer Empanada",
+      "description": "Empanada aus Curry Bock Wurst, Zwiebel a la Altbier und Curryketchup.",
+      "image": "/images/empanada-capresse.png"
+    },
+    {
+      "id": 9,
+      "name": "Zwiebel & Käse Empanada",
+      "description": "Empanada aus Zwiebel und Mozzarella Käse.",
+      "image": "/images/empanada-capresse.png"
+    },
+    {
+      "id": 10,
+      "name": "VeganHack Empanada",
+      "description": "Empanada aus Vegan Hack (Sonnenblumen Protein), mit Zwiebel, rote Paprika, KartoffeIn und Oliven.",
+      "image": "/images/empanada-capresse.png"
+    },
+    {
+      "id": 11,
+      "name": "Thunfisch Empanada",
+      "description": "Empanada aus Thunfisch, rote Paprika Zwiebel, gekochtem Ei und frischkäse.",
+      "image": "/images/empanada-capresse.png"
+    },
+    {
+      "id": 12,
+      "name": "Hähnchen Empanada",
+      "description": "Empanada aus Hähnchen, Zwiebel, rote Paprika und Tomatensauce.",
+      "image": "/images/empanada-capresse.png"
+    }
+]
+  

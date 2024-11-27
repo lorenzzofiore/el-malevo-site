@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigshot+One&family=Inter:wght@100..900&display=swap');
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --black:#020202;
+  --white:#fafafa;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+.body-app {
+  position: relative;
+  background-image: url('/images/bg-home-elmalevo.webp');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container-app {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.main {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.3px);
+  -webkit-backdrop-filter: blur(10.3px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1920px;
+}
+
+.elmalevo-ilus-bg {
+  position: absolute;
+  top: 0;
+  left: -300px;
+}
+.cuchillo-ilus-bg {
+  position: absolute;
+  top: 400px;
+  right: -50px;
+}
+
+.navbar {
+  position: sticky;
+}
+
+.navbar, .app {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.3px);
+  -webkit-backdrop-filter: blur(10.3px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Geist", sans-serif;
+}
+
+/*Buttons*/
+button {
+  border: none;
+  background-color: transparent;
+}
+.btn-try-empanadas,
+.btn-try-clothes {
+  background-color: var(--white);
+  color: var(--black);
+  border-radius: 50px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 160px;
+  transition: all ease-in-out 400ms;
+}
+.btn-try-empanadas:hover,
+.btn-try-clothes:hover {
+  background-color: #ffcc00;
+  color: var(--black);
+} 
+
+.btn-chat-with-us {
+  background-color: var(--black);
+  color: var(--white);
+  border-radius: 50px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 160px;
+  transition: all ease-in-out 400ms;
+} 
+.btn-chat-with-us:hover {
+  background-color: #ffcc00;
+  color: var(--black);
+}
+/*Variables Tipografias*/
+.bigshot-one-regular {
+  font-family: "Bigshot One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.geist {
+  font-family: "Geist", sans-serif;
+}
+.title {
+  font-size: 4rem;
+  color: var(--white);
+}
+.text-p {
+  font-size: 18px;
+  color: var(--white);
+}
+.text-center {
+  text-align: center;
+}
+.ch-100 {
+  width: 100ch;
+}
+@media (max-width:768px) {
+  .image-trama img {
+    position: relative!important;
+  }
+}

@@ -1,0 +1,39 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 1rem;
+    width: 100%;
+}
+.row-image-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.image-empanada-hero {
+    position: relative;
+    width: 650px;
+    height: 500px;
+}
+.image-trama {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 150px;
+}
+@media (max-width:768px) {
+    .hero-section h1 {
+        text-align: center;
+    }
+    .image-empanada-hero {
+        height: 250px;
+    }
+    .image-empanada-hero img {
+        position: relative;
+    }
+}

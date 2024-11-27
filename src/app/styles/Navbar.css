@@ -1,0 +1,51 @@
+/* styles/Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: sticky
+  }
+  
+  .navbar-logo img {
+    max-width: 300px;
+    cursor: pointer;
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navbar-links a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links a:hover {
+    color: #ffcc00; /* Color al pasar el mouse */
+  }
+  .btn-chat-with-us-nav {
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 50px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 400ms;
+    cursor: pointer;
+  } 
+  .btn-chat-with-us-nav:hover {
+    background-color: #ffcc00;
+    color: var(--black);
+  }
+  @media (max-width:768px) {
+    .navbar-links {
+      display: none;
+    }
+  }
