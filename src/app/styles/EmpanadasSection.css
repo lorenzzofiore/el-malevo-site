@@ -48,6 +48,8 @@
 .image-empanada img {
     width: 100%;
     position: relative;
+    border-radius: 20px;
+    overflow: clip;
 }
 .botones-empanadas {
     display: flex;
@@ -92,7 +94,8 @@
         width: 30ch;
     }
     .image-empanada {
-        max-height: 340px;
+        max-width: 310px;
+        margin: auto;
     }
     .botones-empanadas button {
         background: transparent;

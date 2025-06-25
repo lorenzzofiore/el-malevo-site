@@ -3,13 +3,13 @@
       "id": 1,
       "name": "Spinat Empanada",
       "description": "Empanada aus frischem Spinar, mit gekochtem Ei und Mozzarella.",
-      "image": "/images/empanada-capresse.png"
+      "image": "/images/empanada-spinat.png"
     },
     {
       "id": 2,
       "name": "Schinken-Käse Empanada",
       "description": "Empanada aus Schinken und MOzzarella.",
-      "image": "/images/empanada-carne.png"
+      "image": "/images/empanada-pollo.png"
     },
     {
       "id": 3,
@@ -21,25 +21,25 @@
       "id": 4,
       "name": "Humita Empanada",
       "description": "Empanada aus Mais, rote Paprika und Bechamelsauce.",
-      "image": "/images/empanada-carne.png"
+      "image": "/images/empanada-humita.png"
     },
     {
       "id": 5,
       "name": "Hackfleisch Empanada",
       "description": "Empanada aus Rinderhackfleisch, gekochtem Ei, Oliven, Zwiebeln und rote Paprika.",
-      "image": "/images/empanada-capresse.png"
+      "image": "/images/empanada-atun.png"
     },
     {
       "id": 6,
       "name": "Zwiebel & Champignons",
       "description": "Empanada aus Zwiebel, Champignons und bechamelsauce Käse Aromatische.",
-      "image": "/images/empanada-capresse.png"
+      "image": "/images/empanada-cebolla.png"
     },
     {
       "id": 7,
       "name": "CheesyFleisch Empanada",
       "description": "Empanada aus Rinderhackfleisch, Zwiebel, Cheddar und Mozzarella Käse.",
-      "image": "/images/empanada-capresse.png"
+      "image": "/images/empanada-carrillada.png"
     },
     {
       "id": 8,
@@ -51,25 +51,25 @@
       "id": 9,
       "name": "Zwiebel & Käse Empanada",
       "description": "Empanada aus Zwiebel und Mozzarella Käse.",
-      "image": "/images/empanada-capresse.png"
+      "image": "/images/empanada-quesoycebolla.png"
     },
     {
       "id": 10,
       "name": "VeganHack Empanada",
       "description": "Empanada aus Vegan Hack (Sonnenblumen Protein), mit Zwiebel, rote Paprika, KartoffeIn und Oliven.",
-      "image": "/images/empanada-capresse.png"
+      "image": "/images/empanada-humita.png"
     },
     {
       "id": 11,
       "name": "Thunfisch Empanada",
       "description": "Empanada aus Thunfisch, rote Paprika Zwiebel, gekochtem Ei und frischkäse.",
-      "image": "/images/empanada-capresse.png"
+      "image": "/images/empanada-atun.png"
     },
     {
       "id": 12,
       "name": "Hähnchen Empanada",
       "description": "Empanada aus Hähnchen, Zwiebel, rote Paprika und Tomatensauce.",
-      "image": "/images/empanada-capresse.png"
+      "image": "/images/empanada-pollo.png"
     }
 ]
   
