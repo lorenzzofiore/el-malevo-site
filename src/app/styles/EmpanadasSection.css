@@ -48,8 +48,6 @@
 .image-empanada img {
     width: 100%;
     position: relative;
-    border-radius: 20px;
-    overflow: clip;
 }
 .botones-empanadas {
     display: flex;
