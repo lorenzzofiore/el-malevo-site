@@ -3,73 +3,73 @@
       "id": 1,
       "name": "Spinat Empanada",
       "description": "Empanada aus frischem Spinar, mit gekochtem Ei und Mozzarella.",
-      "image": "/images/empanada-spinat.png"
+      "image": "/images/empanada-de-espinaca-el-malevo.png"
     },
     {
       "id": 2,
       "name": "Schinken-Käse Empanada",
       "description": "Empanada aus Schinken und MOzzarella.",
-      "image": "/images/empanada-pollo.png"
+      "image": "/images/empanada-de-pollo-el-malevo.png"
     },
     {
       "id": 3,
       "name": "Capresse Empanada",
       "description": "Empanada aus Tomaten, Mozzarella, Basilikum und einem Hauch Olivenöl.",
-      "image": "/images/empanada-capresse.png"
+      "image": "/images/empanada-de-capresse-el-malevo.png"
     },
     {
       "id": 4,
       "name": "Humita Empanada",
       "description": "Empanada aus Mais, rote Paprika und Bechamelsauce.",
-      "image": "/images/empanada-humita.png"
+      "image": "/images/empanada-de-humita-el-malevo.png"
     },
     {
       "id": 5,
       "name": "Hackfleisch Empanada",
       "description": "Empanada aus Rinderhackfleisch, gekochtem Ei, Oliven, Zwiebeln und rote Paprika.",
-      "image": "/images/empanada-atun.png"
+      "image": "/images/empanada-de-atun-el-malevo.png"
     },
     {
       "id": 6,
       "name": "Zwiebel & Champignons",
       "description": "Empanada aus Zwiebel, Champignons und bechamelsauce Käse Aromatische.",
-      "image": "/images/empanada-cebolla.png"
+      "image": "/images/empanada-de-champignonesyqueso-el-malevo.png"
     },
     {
       "id": 7,
       "name": "CheesyFleisch Empanada",
       "description": "Empanada aus Rinderhackfleisch, Zwiebel, Cheddar und Mozzarella Käse.",
-      "image": "/images/empanada-carrillada.png"
+      "image": "/images/empanada-de-carrillada-el-malevo.png"
     },
     {
       "id": 8,
       "name": "Düsseldorfer Empanada",
       "description": "Empanada aus Curry Bock Wurst, Zwiebel a la Altbier und Curryketchup.",
-      "image": "/images/empanada-capresse.png"
+      "image": "/images/empanada-de-carne-el-malevo.png"
     },
     {
       "id": 9,
       "name": "Zwiebel & Käse Empanada",
       "description": "Empanada aus Zwiebel und Mozzarella Käse.",
-      "image": "/images/empanada-quesoycebolla.png"
+      "image": "/images/empanada-de-cebollayqueso-el-malevo.png"
     },
     {
       "id": 10,
       "name": "VeganHack Empanada",
       "description": "Empanada aus Vegan Hack (Sonnenblumen Protein), mit Zwiebel, rote Paprika, KartoffeIn und Oliven.",
-      "image": "/images/empanada-humita.png"
+      "image": "/images/empanada-de-humita-el-malevo.png"
     },
     {
       "id": 11,
       "name": "Thunfisch Empanada",
       "description": "Empanada aus Thunfisch, rote Paprika Zwiebel, gekochtem Ei und frischkäse.",
-      "image": "/images/empanada-atun.png"
+      "image": "/images/empanada-de-carneyqueso-el-malevo.png"
     },
     {
       "id": 12,
       "name": "Hähnchen Empanada",
       "description": "Empanada aus Hähnchen, Zwiebel, rote Paprika und Tomatensauce.",
-      "image": "/images/empanada-pollo.png"
+      "image": "/images/empanada-de-jamonyqueso-el-malevo.png"
     }
 ]
   
