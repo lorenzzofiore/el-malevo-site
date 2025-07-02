@@ -36,10 +36,11 @@
     justify-content: flex-start;
 }
 .row-cta-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: stretch;
     gap: 1rem;
+    width: 100%;
 }
 
 .boton-main-empanada,
@@ -56,8 +57,6 @@
     align-items: center;
     justify-content: center;
     gap: 9px;
-    width: 260px;
-    height: 120px;
     border-radius: 22px;
     cursor: pointer;
     transition: all ease-in-out 400ms;
@@ -110,7 +109,13 @@
     .cta-main .row-cta-main {
         flex-wrap: wrap;
     }
-    
+    .row-cta-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: stretch;
+        gap: 1rem;
+        width: 100%;
+    }
 }
 @media (max-width:768px) {
     .main-section {
