@@ -71,6 +71,8 @@
     color: var(--white);
     transition: all ease-in-out 400ms;
     cursor: pointer;
+    width: 100px;
+    height: 52px;
 }
 .botones-empanadas button:hover {
     background-color: #ffcc00;
