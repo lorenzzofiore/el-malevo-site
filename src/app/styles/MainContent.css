@@ -1,16 +1,92 @@
-.main-section {
+.main-section-container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 1rem;
-    padding: 2rem 1rem;
+    padding: 0rem 1rem 1rem 1rem;
     width: 100%;
+    max-width: 90%;
+}
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 0rem 1rem 1rem 1rem;
+    width: 100%;
+}
+.botones-main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1.75rem;
 }
 .image-isologo {
     position: relative;
     width: 350px;
     height: 500px;
+}
+.main-section a {
+    width: fit-content;
+}
+.cta-main {
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.row-cta-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.boton-main-empanada,
+.boton-main-clothing {
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.3px);
+    -webkit-backdrop-filter: blur(10.3px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 1rem 1.25rem;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    width: 260px;
+    height: 120px;
+    border-radius: 22px;
+    cursor: pointer;
+    transition: all ease-in-out 400ms;
+}
+.boton-main-empanada:hover,
+.boton-main-clothing:hover {
+    color: #ffcc00;
+    box-shadow: 0 4px 30px #ffcc0036;
+}
+.boton-main-empanada img,
+.boton-main-clothing img {
+    position: relative!important;
+}
+.boton-main-empanada img {
+    height: 45px!important;
+}
+.boton-main-clothing img {
+    height: 45px!important;
+}
+.row-image-hero {
+    display: flex;
+    align-self: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.row-image-hero p {
+    width: 40ch;
+    text-align: left;
+    font-size: 16px;
 }
 @media (max-width:768px) {
     .main-section {

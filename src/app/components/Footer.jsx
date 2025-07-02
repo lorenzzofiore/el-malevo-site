@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function HeroSection() {
   return (
     <section className="footer-section" id="contact">
-      <h2 className='bigshot-one-regular title'>Ready to experience the essence of "El Malevo"?</h2>
+      <h2 className='bigshot-one-regular title text-center'>Ready to experience the essence of "El Malevo"?</h2>
       <p className='geist text-p'>Welcome to the world of "El Malevo," where tradition and craftsmanship meet to create an experience like no other.</p>
       <div className='row-cta-footer'>
         <a href='https://www.instagram.com/empanadaselmalevo/?hl=es-la' className='boton-footer-empanada'>
