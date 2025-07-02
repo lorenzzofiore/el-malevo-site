@@ -88,6 +88,30 @@
     text-align: left;
     font-size: 16px;
 }
+@media (max-width:1300px) {
+    .image-isologo {
+        position: relative;
+        width: 240px;
+        height: 290px;
+    }
+}
+@media (max-width:1200px) {
+    .main-section {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .botones-main {
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    .cta-main .row-cta-main {
+        flex-wrap: wrap;
+    }
+    
+}
 @media (max-width:768px) {
     .main-section {
         gap: 2rem;
@@ -107,5 +131,8 @@
     }
     .btn-chat-with-us {
         display: none;
+    }
+    .row-image-hero p {
+        width: 90%;
     }
 }
