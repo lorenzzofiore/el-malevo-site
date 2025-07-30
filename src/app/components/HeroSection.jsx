@@ -9,7 +9,7 @@ export default function HeroSection() {
       <h1 className='bigshot-one-regular title'>Once upon a teig...</h1>
       <p className='geist text-p'>Es geht nicht nur um das Produkt, sondern auch um das Erlebnis - darin liegt die Exzellenz.</p>
       <div className='row-image-hero'>
-        <a className='btn-try-empanadas'>Try Empanadas</a>
+        <a className='btn-try-empanadas'>Jetzt probieren</a>
         <div className='image-empanada-hero'>
             <Image 
                 className='img-empanada-hero'
@@ -19,7 +19,7 @@ export default function HeroSection() {
                 objectFit="contain"
             />
         </div>
-        <a className='btn-chat-with-us'>Chat with us</a>
+        <a className='btn-chat-with-us'>Chatten</a>
       </div>
       <div className='image-trama'>
         <Image

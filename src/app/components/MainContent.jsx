@@ -11,8 +11,8 @@ export default function HeroSection() {
         <h2 className='bigshot-one-regular title'>"El Malevo"</h2>
         <p className='geist text-p'>Willkommen in der Welt von El Malevo, wo Tradition und Handwerkskunst aufeinandertreffen, um ein unvergleichliches Erlebnis zu schaffen.</p>
         <div className='botones-main'>
-          <a className='btn-try-empanadas'>Probieren Sie unsere Empanadas</a>
-          <a className='btn-chat-with-us'>Chatten Sie mit uns</a>
+          <a className='btn-try-empanadas'>Jetzt probieren</a>
+          <a className='btn-chat-with-us'>Chatten</a>
         </div>
       </div>
       <div className='row-image-hero'>

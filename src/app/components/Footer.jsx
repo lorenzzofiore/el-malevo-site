@@ -16,7 +16,7 @@ export default function HeroSection() {
             layout="fill"
             objectFit="contain"
           />  
-          Shop Empanadas
+          Jetzt probieren Empanadas
         </a>
         <a href='https://www.instagram.com/malevoclothing/?hl=es-la' className='boton-footer-clothing'>
           <Image
