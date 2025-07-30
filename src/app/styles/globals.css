@@ -17,11 +17,12 @@ html,
 body {
   font-size: 16px;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .body-app {
   position: relative;
-  background-image: url('/images/bg-home-elmalevo.webp');
+  background-image: url('/images/el-malevo-fondo-de-madera-textura.webp');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -78,6 +78,7 @@
     background-color: #ffcc00;
     color: var(--black);
 } 
+
 @media (max-width:768px) {
     .selected-empanada {
         grid-template-columns: 1fr;

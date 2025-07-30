@@ -7,6 +7,7 @@ import Image from 'next/image';
 export default function EmpanadasSection() {
   const [empanadas, setEmpanadas] = useState([]);
   const [selectedEmpanadaIndex, setSelectedEmpanadaIndex] = useState(0);
+  const [isFading, setIsFading] = useState(false);
 
   useEffect(() => {
     fetch('/data/empanadas.json')
@@ -16,6 +17,14 @@ export default function EmpanadasSection() {
       })
       .catch((error) => console.error('Error loading empanadas:', error));
   }, []);
+// Función genérica para cambiar imagen con fade
+  const changeIndex = (newIndex) => {
+    setIsFading(true);
+    setTimeout(() => {
+      setSelectedIndex(newIndex);
+      setIsFading(false);
+    }, 500); // coincide con la duración del transition en CSS
+  };
 
   const handlePrevious = () => {
     setSelectedEmpanadaIndex((prevIndex) =>
@@ -78,7 +87,7 @@ export default function EmpanadasSection() {
             </div>
           </div>
           <div className="image-empanada">
-            <img src={selectedEmpanada.image} alt={selectedEmpanada.name} />
+             <img src={selectedEmpanada.image} alt={selectedEmpanada.name} />
           </div>
         </div>
       )}
