@@ -9,10 +9,10 @@ export default function HeroSection() {
     <section className="main-section">
       <div>
         <h2 className='bigshot-one-regular title'>"El Malevo"</h2>
-        <p className='geist text-p'>Welcome to El Malevo's world, where tradition and craftsmanship meet to create an experience like no other.</p>
+        <p className='geist text-p'>Willkommen in der Welt von El Malevo, wo Tradition und Handwerkskunst aufeinandertreffen, um ein unvergleichliches Erlebnis zu schaffen.</p>
         <div className='botones-main'>
-          <a className='btn-try-empanadas'>Try Empanadas</a>
-          <a className='btn-chat-with-us'>Chat with us</a>
+          <a className='btn-try-empanadas'>Probieren Sie unsere Empanadas</a>
+          <a className='btn-chat-with-us'>Chatten Sie mit uns</a>
         </div>
       </div>
       <div className='row-image-hero'>
@@ -25,7 +25,7 @@ export default function HeroSection() {
                 objectFit="contain"
             />
         </div>
-        <p className='geist text-p text-center ch-100'>-"Just as the Argentine gaucho returned home from a long day's work, greeted by the warmth of a handmade empanada, we invite you to savor this piece of history. At "El Malevo," each empanada is a journey through time, a tribute to the land, the people, and the rich culinary heritage of Argentina. Explore our flavors and experience the excellence of simplicity."</p>
+        <p className='geist text-p text-center ch-100'>-"So wie der argentinische Gaucho nach einem langen Arbeitstag nach Hause kam und von der Wärme einer handgemachten Empanada empfangen wurde, laden wir dich ein, dieses Stück Geschichte zu genießen. Bei El Malevo ist jede Empanada eine Reise durch die Zeit – eine Hommage an das Land, die Menschen und das reiche kulinarische Erbe Argentiniens. Entdecke unsere Geschmacksvielfalt und erlebe die Exzellenz der Einfachheit."</p>
       </div>
     </section>
     <section className='cta-main'>

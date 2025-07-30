@@ -5,8 +5,8 @@ import Image from 'next/image';
 export default function HeroSection() {
   return (
     <section className="footer-section" id="contact">
-      <h2 className='bigshot-one-regular title text-center'>Ready to experience the essence of "El Malevo"?</h2>
-      <p className='geist text-p'>Welcome to the world of "El Malevo," where tradition and craftsmanship meet to create an experience like no other.</p>
+      <h2 className='bigshot-one-regular title text-center'>Bereit, das Wesen von El Malevo zu erleben?</h2>
+      <p className='geist text-p'>Willkommen in der Welt von El Malevo, wo Tradition und Handwerkskunst aufeinandertreffen, um ein unvergleichliches Erlebnis zu schaffen.</p>
       <div className='row-cta-footer'>
         <a href='https://www.instagram.com/empanadaselmalevo/?hl=es-la' className='boton-footer-empanada'>
           <Image
@@ -43,7 +43,7 @@ export default function HeroSection() {
           Kempgensweg 68, Düsseldorf, Germany 40231
         </p>
         <p className='geist'>
-          Empanadas El Malevo - All rights reserved © - 2024
+          Empanadas El Malevo - All rights reserved © - 2025
         </p>
         <div className='cta-clothing geist'>
           <a href="https://www.instagram.com/malevoclothing/?hl=es-la">Malevo Clothing</a> x <a href="https://lorenzofiore.me/">ELEFE©</a>
