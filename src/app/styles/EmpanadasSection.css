@@ -29,6 +29,13 @@
     font-size: 3rem;
     width: 12ch;
 }
+.box-img-empanada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
 .info-empanada p {
     color: var(--white);
     font-size: 1.25rem;
@@ -53,9 +60,6 @@
     display: flex;
     gap: 1rem;
     align-items: center;
-    justify-content: flex-start;
-    margin-right: auto;
-    padding-top: 8rem;
 }
 .botones-empanadas button {
     display: flex;

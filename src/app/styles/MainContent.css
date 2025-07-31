@@ -41,6 +41,7 @@
     justify-content: stretch;
     gap: 1rem;
     width: 100%;
+    max-width: 960px;
 }
 
 .boton-main-empanada,
@@ -50,16 +51,19 @@
     backdrop-filter: blur(10.3px);
     -webkit-backdrop-filter: blur(10.3px);
     border: 1px solid rgba(255, 255, 255, 0.15);
-    padding: 1rem 1.25rem;
     color: var(--white);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 9px;
-    border-radius: 22px;
+    border-radius: 21px;
     cursor: pointer;
     transition: all ease-in-out 400ms;
+}
+.boton-main-empanada span,
+.boton-main-clothing span {
+    padding: 1rem 1.25rem;
 }
 .boton-main-empanada:hover,
 .boton-main-clothing:hover {
@@ -71,10 +75,10 @@
     position: relative!important;
 }
 .boton-main-empanada img {
-    height: 45px!important;
+    height: auto;
 }
 .boton-main-clothing img {
-    height: 45px!important;
+    height: auto;
 }
 .row-image-hero {
     display: flex;
@@ -139,5 +143,9 @@
     }
     .row-image-hero p {
         width: 90%;
+    }
+    .row-cta-main {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }

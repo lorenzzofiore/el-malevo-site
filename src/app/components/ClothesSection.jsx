@@ -61,6 +61,7 @@ export default function ClothesSection() {
       {selectedClothes && (
         <div className="selected-clothes">
           <div className="info-clothes">
+            <span className="label-title">Malevo Clothing</span>
             <h2 className="bigshot-one-regular">{selectedClothes.name}</h2>
             <p className='geist'>{selectedClothes.description}</p>
             <a href="https://www.instagram.com/malevoclothing?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target='_blank' className="btn-try-clothes">Buy Clothes</a>

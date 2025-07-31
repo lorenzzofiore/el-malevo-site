@@ -31,44 +31,44 @@ export default function HeroSection() {
     <section className='cta-main'>
       <div className='row-cta-main'>
               <a href='https://www.instagram.com/empanadaselmalevo/?hl=es-la' className='boton-main-empanada'>
+                <span>Foodtruck Alemania</span>
                 <Image
                   className="logo-malevo-clothing" 
-                  src="/images/empanada-malevo-fotografia.png"
+                  src="/images/imagen-foodtruck-el-malevo-alemania.webp"
                   alt="Logo Malevo Clothing y ELEFE"
                   layout="fill"
                   objectFit="contain"
                 />  
-                Foodtruck Alemania
               </a>
-              <a href='https://www.instagram.com/empanadaselmalevo/?hl=es-la' className='boton-main-empanada'>
+              <a href='https://www.instagram.com/elmalevosevilla/?hl=es-la' className='boton-main-empanada'>
+                <span>Local Sevilla</span>
                 <Image
                   className="logo-malevo-clothing" 
-                  src="/images/empanada-malevo-fotografia.png"
-                  alt="Logo Malevo Clothing y ELEFE"
+                  src="/images/imagen-local-sevilla-el-malevo.webp"
+                  alt="imagen local El Malevo en Sevilla España"
                   layout="fill"
                   objectFit="contain"
                 />  
-                Local Sevilla
               </a>
               <a href='https://www.instagram.com/malevoclothing/?hl=es-la' className='boton-main-clothing'>
+                <span>Explore Malevo Clothing</span>
                 <Image
                   className="logo-malevo-clothing" 
-                  src="/images/malevo-clothing-x-elefe.png"
-                  alt="Logo Malevo Clothing y ELEFE"
+                  src="/images/imagen-el-malevo-clothing-la-anfitriona.webp"
+                  alt="imagen hombre sobre tranquera con remera Al que madruga dios lo ayuda El Malevo"
                   layout="fill"
                   objectFit="contain"
                 />
-                Explore Malevo Clothing
               </a>
               <a href='https://www.instagram.com/malevoclothing/?hl=es-la' className='boton-main-clothing'>
+                <span>La Fabrica </span>
                 <Image
                   className="logo-malevo-clothing" 
-                  src="/images/malevo-clothing-x-elefe.png"
-                  alt="Logo Malevo Clothing y ELEFE"
+                  src="/images/imagen-la-fabrica-el-malevo-empanadas.webp"
+                  alt="Imagen empanada en la fabrica de El Malevo"
                   layout="fill"
                   objectFit="contain"
                 />
-                La Fabrica 
               </a>
             </div>
     </section>

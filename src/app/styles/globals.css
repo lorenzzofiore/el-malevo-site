@@ -90,6 +90,15 @@ a {
   font-family: "Geist", sans-serif;
 }
 
+.label-title {
+  font-family: "Geist", sans-serif;
+  color: var(--black);
+  background-color: #ffcc00;
+  border-radius: 50px;
+  padding: 3px 9px;
+  font-size: 13px;
+}
+
 /*Buttons*/
 button {
   border: none;
