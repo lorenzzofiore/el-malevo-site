@@ -33,6 +33,13 @@
     font-size: 1.25rem;
     margin-bottom: 1rem;
 }
+.box-img-clothes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
 .image-clothes {
     position: relative;
     display: flex;
@@ -51,9 +58,6 @@
     display: flex;
     gap: 1rem;
     align-items: center;
-    justify-content: flex-start;
-    margin-right: auto;
-    padding-top: 8rem;
 }
 .botones-clothes button {
     display: flex;
